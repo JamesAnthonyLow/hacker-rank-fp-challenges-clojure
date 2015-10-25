@@ -1,4 +1,4 @@
-(ns my-clojure-solutions.core)
+(ns introduction.core)
 
 (defn foo
   "I don't do a whole lot."
