@@ -5,7 +5,7 @@ Feel free to tweet me [@JamesAnthonyLow](twitter.com/JamesAnthonyLow), code revi
 
 ## Acknowledgements
 
-Shout out to [Vlad Bokov](https://razum2um.me) for maintaining an awesome [GitHub profile](github.com/razum2um) with some awesome Clojure projects and [tools](github.com/razum2um/clj-debugger) appealing to the Rubyist mindset.
+Shout out to [Vlad Bokov](https://razum2um.me) for maintaining a fantastic [GitHub profile](github.com/razum2um) with some awesome Clojure projects and [tools](github.com/razum2um/clj-debugger) appealing to the Rubyist mindset.
 
 ## License
 
