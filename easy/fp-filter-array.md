@@ -3,7 +3,7 @@ Implement a function that takes an array and filters out the values that are gre
 
 **Sample Input:** ```3 '(10 9 8 2 7 5 1 3 0)```
 
-**Sample Output:** ```(2 1 0)``
+**Sample Output:** ```(2 1 0)```
 
 Output should remain in original order
 
