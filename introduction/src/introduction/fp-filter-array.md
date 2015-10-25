@@ -7,7 +7,7 @@ Implement a function that takes an array and filters out the values that are gre
 
 Output should remain in original order
 
-###[Solution]
+###Solution
 ```clojure
 (fn[delim lst]
   (loop[coll [] [num & rest] lst]
