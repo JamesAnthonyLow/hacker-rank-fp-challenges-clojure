@@ -3,6 +3,7 @@
             [introduction.core :refer :all]))
   (apply load ["fp-hello-world"
                "fp-hello-world-n-times"
+               "fp-list-replication"
                "fp-filter-array"])
 
 ;;fp-hello-world
@@ -16,6 +17,12 @@
   (is
     (= (with-out-str (introduction.core/fp-hello-world-n-times 2))
        "Hello World\nHello World\n") "Should print Hello World\n n times"))
+
+;;fp-list-replication
+(deftest my-fp-list-replication
+  (is
+    (= (with-out-str (introduction.core/fp-list-replication 3 '(1 2 3 4)))
+       "1\n1\n1\n2\n2\n2\n3\n3\n3\n4\n4\n4\n") "Should print each element in the list n times" ))
 
 ;;fp-filter-array
 (deftest my-fp-filter-array
