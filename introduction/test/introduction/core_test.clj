@@ -26,3 +26,10 @@
     (= 
       (introduction.core/fp-filter-array 3 '(10 9 8 2 7 5 1 3 0))
       '(2 1 0)) "Should return a vector containing all the numbers in the list less than the delimiter in original order"))
+
+;;fp-filter-positions-in-a-list
+(deftest my-fp-filter-positions-in-a-list
+  (is
+    (=
+     (introduction.core/fp-filter-positions-in-a-list '(2 5 3 4 6 7 9 8)) '(5 4 7 8))
+    "Should return a sequence of the elements at the odd positions in the list"))

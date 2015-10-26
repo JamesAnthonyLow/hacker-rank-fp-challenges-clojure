@@ -18,5 +18,5 @@
       (recur (if (< num delim) (conj coll num) coll) rest)
       coll))) 
 
-
-
+(defn fp-filter-positions-in-a-list [lst]
+  (keep-indexed #(if (odd? %1) %2) lst))
