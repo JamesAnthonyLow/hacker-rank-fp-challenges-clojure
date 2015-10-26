@@ -21,8 +21,8 @@
 ;;fp-list-replication
 (deftest my-fp-list-replication
   (is
-    (= (with-out-str (introduction.core/fp-list-replication 3 '(1 2 3 4)))
-       "1\n1\n1\n2\n2\n2\n3\n3\n3\n4\n4\n4\n") "Should print each element in the list n times" ))
+    (= (introduction.core/fp-list-replication 3 '(1 2 3 4))
+       '(1 1 1 2 2 2 3 3 3 4 4 4 )) "Should return a list with each element repeated n times"))
 
 ;;fp-filter-array
 (deftest my-fp-filter-array
