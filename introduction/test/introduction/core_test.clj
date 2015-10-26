@@ -1,10 +1,6 @@
 (ns introduction.core-test
   (:require [clojure.test :refer :all]
             [introduction.core :refer :all]))
-  (apply load ["fp-hello-world"
-               "fp-hello-world-n-times"
-               "fp-list-replication"
-               "fp-filter-array"])
 
 ;;fp-hello-world
 (deftest my-fp-hello-world
