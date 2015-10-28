@@ -7,6 +7,7 @@ These are my solutions to the following challenges in [introduction subdomain](h
 - [List Replication](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-list-replication.md)
 - [Filter Array](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-filter-array.md)
 - [Filter Positions In A List](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-filter-positions-in-a-list.md)
+- [Array Of N Elements](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-array-of-n-elements.md)
 
 ###[Tests](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/test/introduction/core_test.clj)
 
