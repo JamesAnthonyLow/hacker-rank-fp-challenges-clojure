@@ -1,6 +1,6 @@
 ###[Problem:](https://www.hackerrank.com/challenges/fp-array-of-n-elements)
 Create an array of N integers, where N is specified as input.
-*[Looks like a job for ```lazy-seq```!](https://clojuredocs.org/clojure.core/lazy-seq)
+*[Looks like a job for ```lazy-seq```!](https://clojuredocs.org/clojure.core/lazy-seq)*
 
 **Sample Input:** ```3```
 
