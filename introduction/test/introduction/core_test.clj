@@ -33,3 +33,14 @@
     (=
      (introduction.core/fp-filter-positions-in-a-list '(2 5 3 4 6 7 9 8)) '(5 4 7 8))
     "Should return a sequence of the elements at the odd positions in the list"))
+
+;;fp-array-of-n-elements
+(deftest my-fp-array-of-n-elements
+  (is
+    (= (introduction.core/fp-array-of-n-elements 3)
+       [1, 2, 3])
+    "Creates an array of N integers"))
+
+
+
+
