@@ -31,5 +31,6 @@
             (cons item new-lst))
           '() lst))
 
+(defn fp-sum-of-odd-elements [lst]
+  (reduce #(if (odd? %2) (+ %1 %2) %1) 0 lst))
 
-  

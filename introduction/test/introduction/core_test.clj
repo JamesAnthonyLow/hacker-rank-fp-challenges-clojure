@@ -46,3 +46,8 @@
   (is
     (= (fp-reverse-a-list '(19 22 3 28 26 17 18 4 28 0))
        '(0 28 4 18 17 26 28 3 22 19))))
+
+(deftest my-fp-sum-of-odd-elements
+  (is
+    (= (fp-sum-of-odd-elements '(3 2 4 6 5 7 8 0 1))
+       16)))
