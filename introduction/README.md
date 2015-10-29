@@ -9,6 +9,7 @@ These are my solutions to the following challenges in [introduction subdomain](h
 - [Filter Positions In A List](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-filter-positions-in-a-list.md)
 - [Array Of N Elements](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-array-of-n-elements.md)
 - [Reverse A List](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-reverse-a-list.md)
+- [Sum Of Odd Elements](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/src/introduction/fp-sum-of-odd-elements.md)
 
 ###[Tests](https://github.com/JamesAnthonyLow/hacker-rank-fp-challenges-clojure/blob/master/introduction/test/introduction/core_test.clj)
 
