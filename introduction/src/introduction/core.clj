@@ -26,3 +26,10 @@
                     ([n] (cons n (lazy-seq 
                                  (ints (inc n))))))))))
 
+(defn fp-reverse-a-list [lst]
+  (reduce (fn [new-lst item]
+            (cons item new-lst))
+          '() lst))
+
+
+  
